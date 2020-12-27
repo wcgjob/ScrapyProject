@@ -12,12 +12,14 @@ BOT_NAME = 'MyScrapy'
 SPIDER_MODULES = ['MyScrapy.spiders']
 NEWSPIDER_MODULE = 'MyScrapy.spiders'
 
+# 日志等级
+LOG_LEVEL = 'WARNING'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'MyScrapy (+http://www.yourdomain.com)'
 
-# Obey robots.txt rules
-ROBOTSTXT_OBEY = True
+# Obey scrapy rules
+ROBOTSTXT_OBEY = False
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
